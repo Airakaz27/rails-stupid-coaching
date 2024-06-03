@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <h4 class="mb-4">Stupid Coaching</h4>
+  <div class="alert alert-secondary" >
+    <p><%= params[:question]%></p>
+    <em>–You</em>
+  </div>
+  <div class="alert alert-info">
+    <p><%= @answer %></p>
+    <em>–Your coach</em>
+  </div>
+  <a href="<%= ask_path %>" class="btn btn-primary">New question</a>
+</div>
